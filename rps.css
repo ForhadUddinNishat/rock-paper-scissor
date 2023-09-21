@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: arial;
+
+}
+
+.move-button{
+    background-color: transparent;
+    height: 120px;
+    width: 120px;  
+    border: 3px solid white;
+    border-radius: 80px;
+    margin-right: 10px;
+    transition: all ease 0.2s;
+
+
+}
+.move-button:hover{
+    cursor: pointer;
+    border: 4px solid wheat;
+
+}
+.move-button:active{
+    scale: 0.9;
+}
+
+.move-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.results{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.move{
+    font-size: 20px;
+}
+
+.score{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.reset-button{
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    transition: ease 0.2s;
+
+}
+
+.reset-button:hover{
+    cursor: pointer;
+}
+.reset-button:active{
+    scale: 0.9;
+}
